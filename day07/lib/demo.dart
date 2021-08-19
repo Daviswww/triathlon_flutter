@@ -1,16 +1,5 @@
+import 'package:flutter/material.dart';
 
-# Day7 Stack
-<style type="text/css">
-    img {
-        width: 250px;
-        margin:auto;
-        display:block;
-    }
-</style>
-Stack可以將兩個以上的元件堆疊在一起，而alignment可以控制元件對齊的地方，像是Alignment.bottomCenter(下中)、Alignment.topCenter(上中)等...
-
-
-```dart
 class DemoStack extends StatelessWidget {
   const DemoStack({Key? key}) : super(key: key);
 
@@ -38,5 +27,3 @@ class DemoStack extends StatelessWidget {
     );
   }
 }
-```
-![](https://i.imgur.com/RlilScz.png)
