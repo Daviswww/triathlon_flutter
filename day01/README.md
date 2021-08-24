@@ -16,24 +16,24 @@ Hi, 我是魚板伯爵本次的教學前面都是基本的元件為主，後面�
 
 ## 套件
 - Day12 Auto Router
-- Day13 bloc
-- Day14 http
-- Day15 dartz
-- Day16 google_sign_in
+- Day13 Bloc
+- Day14 Http
+- Day15 Dartz
+- Day16 Google sign in
 
 ## 專案
 - Day17 Domain Driven Design
 - Day18 Environment
-- Day19 shared
-- Day20 infrastructure auth
-- Day21 domain error handle
-- Day22 application login
-- Day23 application auth
-- Day24 presentation login & home
-- Day25 presentation router
-- Day26 infrastructure remote
-- Day27 application remote
-- Day28 domain remote
-- Day29 flutter icons
-- Day30 bulid apk & ipk
+- Day19 Shared
+- Day20 Infrastructure auth
+- Day21 Domain error handle
+- Day22 Application login
+- Day23 Application auth
+- Day24 Presentation login & home
+- Day25 Presentation router
+- Day26 Infrastructure remote
+- Day27 Application remote
+- Day28 Domain remote
+- Day29 Flutter icons
+- Day30 Bulid apk & ipk
 

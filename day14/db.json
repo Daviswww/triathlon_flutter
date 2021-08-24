@@ -1,0 +1,24 @@
+{
+  "auth": [
+    {
+      "username": "username",
+      "password": "xdrcftvgybhunijcftvgbh",
+      "id": 1
+    },
+    {
+      "username": "username",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "username": "username",
+      "password": "password",
+      "id": 3
+    },
+    {
+      "username": "username",
+      "password": "password",
+      "id": 4
+    }
+  ]
+}
