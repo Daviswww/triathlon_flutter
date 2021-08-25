@@ -9,7 +9,7 @@ dependencies:
   http: ^0.13.3
 ```
 ## IOS & Android 設定
-你需要打開IOS和Android的設定檔，使他們同意使用網路。
+你需要打開IOS和Android的設定檔來開啟一些限制。
 
 ### IOS檔案
 路徑`/ios/Runner/Info.plist`。
