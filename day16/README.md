@@ -68,6 +68,8 @@ apply plugin: 'com.google.gms.google-services'
 開啟專案把`GoogleService-Info.plist`放入`ios/Runner`，然後345步驟都不重要下一步到底。
 ![](https://i.imgur.com/ZA13p6o.png)
 
+然後打開XCode右鍵資料夾加入檔案，選擇`GoogleService-Info.plist`。
+![](https://i.imgur.com/L9waVvZ.png)
 ### 第三步
 打開`ios/Runner/Info.plist`把`GoogleService-Info.plist`裡面的`REVERSED_CLIENT_ID`複製到`<string>REVERSED_CLIENT_ID</string>`裡面。
 ```plist
