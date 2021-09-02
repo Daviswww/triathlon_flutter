@@ -1,18 +1,14 @@
+### 前言
+Hi, 我是魚板伯爵今天要教大家 TextField 這個元件，教學內容只會擷取片段程式碼，建議大家搭配完整程式碼來練習。
 
-# Day10 TextField
-<style type="text/css">
-    img {
-        width: 250px;
-        margin:auto;
-        display:block;
-    }
-</style>
-## TextField 元件，常用屬性
+> [完整程式碼](https://github.com/Daviswww/triathlon_flutter/tree/master/day10)
+
+### TextField 元件，常用屬性
 - controller：TextField控制元件可以取得相關屬性
 - keyboardType：鍵盤的型態`TextInputType.text`(文字)、`TextInputType.text`(數字)
 - maxLines：最大行數
 - onChanged：當輸入有變更時會調用
-- 
+
 ```dart
 class DeomBaseTextField extends StatelessWidget {
   const DeomBaseTextField({Key? key}) : super(key: key);
@@ -42,11 +38,11 @@ class DeomBaseTextField extends StatelessWidget {
 }
 ```
 
-![](https://i.imgur.com/j8JSFnk.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day10/image/j8JSFnk.png)
 
 
 
-## TextField : decoration 客製化風格
+### TextField : decoration 客製化風格
 - contentPadding: 文字間距
 - hintText: 文字輸入框內提示的字
 - hintStyle: 文字輸入框內提示字的風格
@@ -94,4 +90,4 @@ InputDecoration(
     );
 ```
 
-![](https://i.imgur.com/MGIO6oV.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day10/image/MGIO6oV.png)

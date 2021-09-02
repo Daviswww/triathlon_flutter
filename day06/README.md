@@ -1,12 +1,10 @@
-# Day6 Center
-<style type="text/css">
-    img {
-        width: 250px;
-        margin:auto;
-        display:block;
-    }
-</style>
-若想讓元件置中，可以使用Center。
+### 前言
+Hi, 我是魚板伯爵今天要教大家 Center 這個元件，教學內容只會擷取片段程式碼，建議大家搭配完整程式碼來練習。
+
+> [完整程式碼](https://github.com/Daviswww/triathlon_flutter/tree/master/day06)
+
+### Center 容器
+想讓元件置中的話，可以使用 Center。
 
 ```dart
 class DemoCenter extends StatelessWidget {
@@ -24,4 +22,4 @@ class DemoCenter extends StatelessWidget {
   }
 }
 ```
-![](https://i.imgur.com/DrT35ku.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day06/image/DrT35ku.png)

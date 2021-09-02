@@ -1,18 +1,15 @@
-# Day9 Button
-<style type="text/css">
-    img {
-        width: 250px;
-        margin:auto;
-        display:block;
-    }
-</style>
+### 前言
+Hi, 我是魚板伯爵今天要教大家 Button 這個元件，教學內容只會擷取片段程式碼，建議大家搭配完整程式碼來練習。
 
+> [完整程式碼](https://github.com/Daviswww/triathlon_flutter/tree/master/day09)
+
+### Button
 - IconButton：圖示按鈕
 - TextButton：文字按鈕
 - OutlineButton：邊框按鈕
 - ElevatedButton：漂浮按鈕
 
-## IconButton 元件，常用屬性
+### IconButton 元件，常用屬性
 可以加入小圖標的按鈕
 - color：Icon的顏色
 - highlightColor：當按鈕按下時的顏色
@@ -44,9 +41,9 @@ class DemoIconButton extends StatelessWidget {
   }
 }
 ```
-![](https://i.imgur.com/ScCusKo.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day09/image/ScCusKo.png)
 
-## TextButton 元件，常用屬性
+### TextButton 元件，常用屬性
 文字按鈕
 - style：利用`TextButton.styleFrom`變更按鈕顏色、風格
 - child：子元件
@@ -79,9 +76,9 @@ class DemoTextButton extends StatelessWidget {
   }
 }
 ```
-![](https://i.imgur.com/BMNn9z0.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day09/image/BMNn9z0.png)
 
-## OutlinedButton 元件，常用屬性
+### OutlinedButton 元件，常用屬性
 會有編框的按鈕
 - style：利用`OutlinedButton.styleFrom`變更按鈕顏色、風格
 - child：子元件
@@ -114,7 +111,7 @@ class DemoOutlinedButton extends StatelessWidget {
 ```
 
 
-## ElevatedButton 元件，常用屬性
+### ElevatedButton 元件，常用屬性
 這個按鈕會有漂浮的感覺。
 - style：利用`ElevatedButton.styleFrom`變更按鈕顏色、風格
 - child：子元件
@@ -141,9 +138,9 @@ class DemoElevatedButton extends StatelessWidget {
   }
 }
 ```
-![](https://i.imgur.com/SNi5llt.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day09/image/SNi5llt.png)
 
-## 鎖住按鈕
+### 鎖住按鈕
 若將onPressed後面帶null的話，按鈕就會變成灰色不能按。
 
 ```dart
@@ -163,4 +160,4 @@ class DemoNullButton extends StatelessWidget {
 
 ```
 
-![](https://i.imgur.com/MtvxwA1.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day09/image/MtvxwA1.png)

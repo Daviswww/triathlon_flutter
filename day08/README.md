@@ -1,15 +1,12 @@
-# Day8 Text
-<style type="text/css">
-    img {
-        width: 250px;
-        margin:auto;
-        display:block;
-    }
-</style>
-Text可用來顯示文字的元件。
+### 前言
+Hi, 我是魚板伯爵今天要教大家 Text 這個元件，教學內容只會擷取片段程式碼，建議大家搭配完整程式碼來練習。
 
-## Text
+> [完整程式碼](https://github.com/Daviswww/triathlon_flutter/tree/master/day08)
+
+
+### Text
 Text文字顯示元件，可以把想要顯示在畫面上的文字打在裡面。
+
 ```dart
 class DemoText extends StatelessWidget {
   const DemoText({Key? key}) : super(key: key);
@@ -22,7 +19,9 @@ class DemoText extends StatelessWidget {
   }
 }
 ```
+
 如果顯示的東西是一個變數的話，必須要用`$str`包起來才行。
+
 ```dart
 class DemoTextValue extends StatelessWidget {
   const DemoTextValue({Key? key}) : super(key: key);
@@ -62,9 +61,9 @@ class Word {
 }
 
 ```
-![](https://i.imgur.com/TPtwuyR.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day08/image/TPtwuyR.png)
 
-## TextStyle
+### TextStyle
 文字的風格、大小和顏色等等都可以在TextStyle中做調整。
 ```dart
 class DemoTextStyle extends StatelessWidget {
@@ -87,7 +86,7 @@ class DemoTextStyle extends StatelessWidget {
   }
 }
 ```
-![](https://i.imgur.com/Pf3SkLk.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day08/image/Pf3SkLk.png)
 
 你還可以將你的style打包起來重複使用。
 ```dart
@@ -123,9 +122,9 @@ class DemoTextStyle extends StatelessWidget {
   }
 }
 ```
-![](https://i.imgur.com/1qZ07P2.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day08/image/1qZ07P2.png)
 
-## 切割字串
+### 切割字串
 有時候在顯示文檔的時候會想把重點變成不一樣的顏色，你可以考慮使用RichText把多個字串包在一起。
 ```dart
 class DemoRichText extends StatelessWidget {
@@ -162,9 +161,9 @@ class DemoRichText extends StatelessWidget {
   }
 }
 ```
-![](https://i.imgur.com/vuxuUpX.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day08/image/vuxuUpX.png)
 
-## Text字體變更
+### Text 字體變更
 如果想要使用外部字體的話，需要先到`pubspec.yaml`最下面的fonts設定字體包的路徑，然後重新`build app`就可以使用設定的字體了。
 
 pubspec.yaml

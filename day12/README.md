@@ -1,5 +1,9 @@
-# Day12 Auto Router
-有時候應用需要切換很多個頁面，或者太多頁面的路徑常常很難找出錯誤，我們可以使用autorouter來幫助我們簡化程式碼，如果有哪個路徑不對，只需要檢查我們設定的參數是否有錯誤就可以了。
+### 前言
+Hi, 我是魚板伯爵今天要教大家 Auto Router 這個套件，教學內容只會擷取片段程式碼，建議大家搭配完整程式碼來練習。
+
+> [完整程式碼](https://github.com/Daviswww/triathlon_flutter/tree/master/day03)
+
+有時候App需要切換很多個頁面，或者太多頁面的路徑常常很難找出錯誤，我們可以使用Autorouter來幫助我們簡化程式碼，如果有哪個路徑不對，只需要檢查我們設定的參數是否有錯誤就可以了。
 
 ## 安裝套件
 auto_route為我們這次主要的套件，而auto_route_generator與build_runner是為了可以生成我們路由的套件。
@@ -9,10 +13,6 @@ dependencies:
   flutter:
     sdk: flutter
   auto_route: ^2.3.0
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:

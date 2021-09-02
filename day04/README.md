@@ -1,24 +1,18 @@
+### 前言
+Hi, 我是魚板伯爵今天要教大家 Column 這個容器，教學內容只會擷取片段程式碼，建議大家搭配完整程式碼來練習。
 
-# Day4 Row
-<style type="text/css">
-    img {
-        width: 250px;
-        margin:auto;
-        display:block;
-    }
-</style>
+> [完整程式碼](https://github.com/Daviswww/triathlon_flutter/tree/master/day05)
 
-Row裡面的元件會以水平方式排列，`mainAxisAlignment`控制橫向對齊，`crossAxisAlignment`則是以縱向對齊，下面範例是置中。
-![](https://i.imgur.com/Syvuzs2.png)
-
+### 常用屬性
+Column裡面的容器會以水平方式排列，`mainAxisAlignment`控制縱向對齊，`crossAxisAlignment`則是以橫向對齊，下面範例是置中。
 
 ```dart
-class DemoRow extends StatelessWidget {
-  const DemoRow({Key? key}) : super(key: key);
+class DemoColumn extends StatelessWidget {
+  const DemoColumn({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
@@ -51,6 +45,7 @@ class DemoRow extends StatelessWidget {
     );
   }
 }
+
 ```
 
-![](https://i.imgur.com/83caJhD.png)
+![](https://raw.githubusercontent.com/Daviswww/triathlon_flutter/master/day05/image/peWco3y.png)
