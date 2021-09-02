@@ -13,3 +13,12 @@ class _DemoStatfulState extends State<DemoStatful> {
     return Container();
   }
 }
+
+class DemoStateless extends StatelessWidget {
+  const DemoStateless({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
