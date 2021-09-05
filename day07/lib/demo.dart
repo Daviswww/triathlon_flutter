@@ -27,3 +27,34 @@ class DemoStack extends StatelessWidget {
     );
   }
 }
+
+class DemoPositionedStack extends StatelessWidget {
+  const DemoPositionedStack({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      alignment: Alignment.bottomCenter,
+      children: [
+        Positioned(
+          left: 0,
+          top: 0,
+          child: Container(
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+        ),
+        Positioned(
+          right: 0,
+          bottom: 0,
+          child: Container(
+            width: 100,
+            height: 100,
+            color: Colors.red,
+          ),
+        ),
+      ],
+    );
+  }
+}
