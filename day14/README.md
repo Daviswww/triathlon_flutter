@@ -1,5 +1,5 @@
 ### 前言
-Ya, 我是魚板伯爵，http 套件可以讓你串接API，你可以利用他來做HTTP請求，是一個很ㄅㄧㄤˋ的工具喔。
+http 套件可以讓你串接API，你可以利用他來做HTTP請求，是一個很ㄅㄧㄤˋ的工具喔。
 
 > [完整程式碼](https://github.com/Daviswww/triathlon_flutter/tree/master/day14)
 
