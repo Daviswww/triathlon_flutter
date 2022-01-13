@@ -1,5 +1,5 @@
 ### 前言
-Hi, 我是魚板伯爵今天要教大家 Stack(堆疊) 和 Positioned(位子)，Stack可以讓子部件堆疊，Positioned 則可以根據四個邊的距離來定位，這兩個常常組合再一起使用。教學內容只會擷取片段程式碼，建議大家搭配完整程式碼來練習。
+今天要教大家 Stack(堆疊) 和 Positioned(位子)，Stack可以讓子部件堆疊，Positioned 則可以根據四個邊的距離來定位，這兩個常常組合再一起使用。教學內容只會擷取片段程式碼，建議大家搭配完整程式碼來練習。
 
 > [完整程式碼](https://github.com/Daviswww/triathlon_flutter/tree/master/day07)
 
